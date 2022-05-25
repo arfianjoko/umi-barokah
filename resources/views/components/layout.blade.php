@@ -14,12 +14,13 @@
 <body>
     <x-navbar></x-navbar>
     {{ $slot }}
+    <x-footer></x-footer>
     <script type="text/javascript" src="{{ asset('vendors/bootstrap/js/bootstrap.js') }}"></script>
     <script type="text/javascript" src="{{ asset('vendors/fontawesome/js/all.js') }}"></script>
     <script type="text/javascript" src="{{ asset('vendors/owlcarousel2/owl.carousel.js') }}"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $(".owl-carousel").owlCarousel({
+            $("#banner").owlCarousel({
                 navigation : false,
                 slideSpeed : 300,
                 paginationSpeed : 400,
@@ -28,6 +29,30 @@
                 itemsDesktopSmall : true,
                 itemsTablet: true,
                 itemsMobile : true
+            });
+
+            $("#excellent-medical-service").owlCarousel({
+                center: true,
+                items:2,
+                loop:true,
+                margin:10,
+                responsive:{
+                    600:{
+                        items: 3
+                    }
+                }
+            });
+
+            $("#cooperation").owlCarousel({
+                center: true,
+                items:2,
+                loop:true,
+                margin:10,
+                responsive:{
+                    600:{
+                        items: 5
+                    }
+                }
             });
         });
     </script>
