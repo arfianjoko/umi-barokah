@@ -1,34 +1,68 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-    <div class="container px-5">
-        <a class="navbar-brand fw-bold" href="#page-top">
-            <img class="logo" src="{{ asset('images/logo.png') }}" alt="logo">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link me-lg-3" href="{{ url('') }}">Beranda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link me-lg-3" href="{{ url('') }}">Profil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link me-lg-3" href="{{ url('') }}">Alur Pendaftaran</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link me-lg-3" href="{{ url('') }}">Informasi</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link me-lg-3" href="{{ url('') }}">Pengaduan</a>
-                </li>
-            </ul>
-            <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
-                <span class="d-flex align-items-center">
-                    <span class="small">Booking Sekarang</span>
-                </span>
-            </button>
+
+<header id="header" class="header light">
+    <div class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 xs-mb-10">
+                    <div class="topbar-call text-center text-md-left">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="tel:+7042791249"> 
+                                    <span>+(704) 279-1249 </span> 
+                                </a> 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:">
+                                    <span>arfianjo@gmail.com</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="topbar-social text-center text-md-right">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</nav>
+    <div class="menu">
+        <nav id="menu" class="mega-menu">
+            <section class="menu-list-items">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                        <ul class="menu-logo">
+                            <li>
+                                <a href="index-01.html">
+                                    <img id="logo_img" src="{{ asset('images/logo.png') }}" alt="logo">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="menu-bar">
+                            <ul class="menu-links">
+                                <li>
+                                    <a href="">Layanan</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </div>
+</header>
