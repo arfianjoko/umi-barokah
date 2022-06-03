@@ -1,68 +1,73 @@
-
-<header id="header" class="header light">
-    <div class="topbar">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 xs-mb-10">
-                    <div class="topbar-call text-center text-md-left">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-phone"></i>
-                                <a href="tel:+7042791249"> 
-                                    <span>+(704) 279-1249 </span> 
-                                </a> 
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                <a href="mailto:">
-                                    <span>arfianjo@gmail.com</span>
-                                </a>
-                            </li>
-                        </ul>
+<header id="topnav" class="defaultscroll sticky">
+    <div class="container py-2">
+        <a class="logo" href="index.html">
+            <img src="{{ asset('images/logo.png') }}" height="50" class="logo-light-mode" alt="Rs Umi Barokah">
+        </a>
+        <div class="menu-extras">
+            <div class="menu-item">
+                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="topbar-social text-center text-md-right">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
-    </div>
-    <div class="menu">
-        <nav id="menu" class="mega-menu">
-            <section class="menu-list-items">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12">
-                        <ul class="menu-logo">
-                            <li>
-                                <a href="index-01.html">
-                                    <img id="logo_img" src="{{ asset('images/logo.png') }}" alt="logo">
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="menu-bar">
-                            <ul class="menu-links">
-                                <li>
-                                    <a href="">Layanan</i>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </nav>
+        <div id="navigation"> 
+            <ul class="navigation-menu">
+                <li>
+                    <a href="{{ url('') }}" class="sub-menu-item">Beranda</a>
+                </li>
+                <li>
+                    <a href="{{ url('') }}" class="sub-menu-item">Profil</a>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                    <a href="javascript:void(0)">Layanan</a>
+                    <span class="menu-arrow"></span>
+                    <ul class="submenu">
+                        <li>
+                            <a href="{{ url('') }}" class="sub-menu-item">Layanan Rawat Jalan</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('') }}" class="sub-menu-item">Layanan Rawat Inap</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('') }}" class="sub-menu-item">Layanan Unggulan</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('') }}" class="sub-menu-item">Layanan Penunjang</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('') }}" class="sub-menu-item">Layanan Pengaduan</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                    <a href="javascript:void(0)">Alur Pendaftaran</a>
+                    <span class="menu-arrow"></span>
+                    <ul class="submenu">
+                        <li>
+                            <a href="{{ url('') }}" class="sub-menu-item">Pasien Rawat Jalan</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('') }}" class="sub-menu-item">Pasien Rawat Inap</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                    <a href="javascript:void(0)">Informasi</a>
+                    <span class="menu-arrow"></span>
+                    <ul class="submenu">
+                        <li>
+                            <a href="{{ url('') }}" class="sub-menu-item">Artikel Kesehatan</a>
+                        </li>
+                        <li>
+                            <a href="{{ url('') }}" class="sub-menu-item">Lowongan Kerja</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 </header>
