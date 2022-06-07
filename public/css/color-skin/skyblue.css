@@ -34,7 +34,7 @@
 .form-check-input.form-check-input:checked,
 .qs-datepicker-container .qs-squares .qs-square:not(.qs-empty):not(.qs-disabled):not(.qs-day):not(.qs-active):hover, 
 .qs-datepicker-container .qs-squares .qs-square.qs-current {
-    background-color: #32c2ec !important;
+    background-color: #22577E !important;
 }
 
 .text-primary,
@@ -94,7 +94,7 @@
 .accordion .accordion-button:not(.collapsed),
 .accordion .accordion-item .accordion-button:before,
 #navmenu-nav li.active a {
-    color: #32c2ec !important;
+    color: #22577E !important;
 }
 
 .btn-primary,
@@ -128,7 +128,7 @@
 .pricing-rates.starter-plan,
 .event-schedule:hover,
 .container-filter li.active, .container-filter li:hover{
-    border-color: #32c2ec !important;
+    border-color: #22577E !important;
 }
 
 .bg-soft-primary,
@@ -183,7 +183,7 @@
 }
 
 .social-icon li a:hover .fea-social {
-    fill: #32c2ec;
+    fill: #22577E;
 }
 
 .bg-circle-gradiant {
@@ -218,13 +218,13 @@
 }
 
 .play-icon i {
-    -webkit-text-stroke: 2px #32c2ec;
+    -webkit-text-stroke: 2px #22577E;
     -webkit-text-fill-color: transparent;
 }
 
 .play-icon i:hover {
-    -webkit-text-stroke: 2px #32c2ec;
-    -webkit-text-fill-color: #32c2ec;
+    -webkit-text-stroke: 2px #22577E;
+    -webkit-text-fill-color: #22577E;
 }
 
 a.text-primary:hover, 

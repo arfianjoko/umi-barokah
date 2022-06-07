@@ -2307,10 +2307,10 @@ p {
 
 #topnav .navigation-menu > li > a {
   display: block;
-  color: #3c4858;
+  color: #6e6e6e;
   font-size: 15px;
   background-color: transparent !important;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   line-height: 24px;
   -webkit-transition: all 0.5s;
@@ -2871,7 +2871,7 @@ p {
 }
 
 .bg-half {
-  padding: 184px 0 90px;
+  padding: 90px 0 0 0;
   background-size: cover;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -3232,7 +3232,7 @@ p {
 
 @media (max-width: 768px) {
   .bg-half {
-    padding: 169px 0 50px;
+    padding: 80px 0 0 0;
   }
 }
 
@@ -5153,4 +5153,16 @@ p {
 
 .footer.footer-bar {
   padding: 30px 0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5% !important;
+}
+
+#prev-carousel:focus, #prev-carousel:hover{
+  color: #ffffff !important;
+  background-color: #22577E !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px !important;
 }
